@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+h1{
+    color: rgb(96, 18, 18);
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+form{
+    background-color: rgb(220, 145, 53);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.461);
+    border-radius: 10px;
+}
+#textbox{
+    width: 30%;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(208, 183, 131);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.461);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 2px;
+}
+
+#textbox:focus{
+    outline: none;
+}
+
+#textbox::placeholder{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+#textbox:hover{
+    background-color: rgb(208, 183, 131);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+label{
+    font-weight: bold;
+    font-size: 1.em;
+}
+#myBtn{
+    color: burlywood;
+    background-color: rgb(96, 18, 18);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.461);
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    padding: 8px 15px;
+    border: none;
+
+}
+#myBtn:hover{
+    background-color: rgb(150, 44, 44);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#result{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-weight: bolder;
+    color: rgb(35, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:goldenrod;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.461);
+
+}
+
+#result:hover{
+    background-color: rgb(61, 39, 1);
+    color: rgb(245, 235, 235);
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+    
+  
